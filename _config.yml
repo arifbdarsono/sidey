@@ -16,7 +16,7 @@ permalink: pretty
 
 baseurl: "/sidey"
 
-highlighter: none
+highlighter: rouge
 
 exclude:
   - .jekyll-cache
@@ -32,7 +32,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-feed  
 
 collections:
   pages:
